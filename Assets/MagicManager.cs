@@ -101,5 +101,8 @@ public class MagicManager : MonoBehaviour
         spellInstance.GetComponent<LightBall>().SetExpand(expand);  
     }
 
+    public GameObject GetSpellInstance() {
+        return spellInstance;
+    }
 
 }
